@@ -7,12 +7,15 @@ public class SwappingUsing3rdVar {
 	int b = 20;
 	int c;
 	
-	System.out.println("Numbers before swapping "+a +" "+b);
-	c=b;
-	b=a;
+	System.out.println("Value of a before swapping "+a );
+	System.out.println("Value of b before swapping "+b );
 	c=a;
+	a=b;
+	b=c;
 	
-			System.out.println("Numbers after swapping "+a +" "+b);
+	
+	System.out.println("Value of a after swapping "+a );
+	System.out.println("Value of b after swapping "+b );
 	
 
 	}
